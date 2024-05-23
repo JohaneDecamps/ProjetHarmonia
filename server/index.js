@@ -14,6 +14,6 @@ app
     console.error("Error:", err.message);
   });
 
-app.get("/", (req, res) => {
-  res.send("Welcome to wild Series!");
-});
+// app.get("/", (req, res) => {
+//   res.send("Welcome to wild Series!");
+// });
