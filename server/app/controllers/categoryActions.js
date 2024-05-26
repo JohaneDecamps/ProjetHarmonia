@@ -16,9 +16,9 @@ const categories = [
 
     if (req.query.q != null) {
   
-      const filteredCategories = categories.filter((program) =>
+      const filteredCategories = categories.filter((c) =>
   
-        program.synopsis.includes(req.query.q)
+        c.includes(req.query.q)
   
       );
   
