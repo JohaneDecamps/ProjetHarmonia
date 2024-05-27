@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const { browse, read  } = require("../../../controllers/categoryActions");
+const { browse, read } = require("../../../controllers/categoryActions");
 
 router.get("/", browse);
 
